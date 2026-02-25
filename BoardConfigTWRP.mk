@@ -64,6 +64,21 @@ TW_CUSTOM_CLOCK_POS   := 65
 TW_CUSTOM_CPU_POS     := 270
 TW_STATUS_ICONS_ALIGN := center
 
+#SHRP-specific lines
+SHRP_PATH := device/xiaomi/veux
+SHRP_MAINTAINER := NINO
+SHRP_DEVICE_CODE := veux
+SHRP_OFFICIAL := true
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /sdcard1
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_REC_TYPE := SAR
+SHRP_REC := /dev/block/bootdevice/by-name/vendor_boot
+SHRP_DEVICE_TYPE := A/B
+SHRP_DARK := true
+SHRP_EXPRESS_USE_DATA := true
+
 # USB
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 
